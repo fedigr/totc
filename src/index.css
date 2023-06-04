@@ -1,0 +1,19 @@
+body{
+    background: black;
+    color: white;
+}
+*{
+    margin: px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    margin-left:20px ;
+}
+button{
+    padding: 0.5rem 0.7rem;
+    background: rgb(60, 171, 185);
+    border-radius: 1.3rem;
+    font-size: 0.95rem;
+    margin: 10px 20px;
+    letter-spacing: 1px;
+}
