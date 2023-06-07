@@ -1,0 +1,20 @@
+/* Color */
+$dark:hsl(0, 3%, 24%);
+$white:hsl(0, 0%, 100%);
+$light:hsl(0, 0%, 90%);
+$primary:rgba(73, 187, 189, 1);
+$primary-light:rgba(126, 204, 205, 1);
+$green-light:rgba(0, 203, 184, 1);
+$header-bg:rgba(73, 187, 189, 1);
+$orange:rgba(244, 140, 6, 1);
+
+/* Font-famely*/
+$font:'Poppins', sans-serif;
+/*breackpoints*/
+$breakpoint:(
+     "mobile":0px,
+     "tablet":756px,
+     "ipad":100px,
+     "laptop":1256px,
+     "desktop":1300px
+)

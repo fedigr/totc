@@ -1,0 +1,8 @@
+@use "../utilities" as * ;
+.container{
+    width: 85%;
+    margin: 0px auto;
+    @include media("mobile"){
+        width: 100%;
+    }
+}

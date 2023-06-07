@@ -1,0 +1,26 @@
+@use "../utilities" as *;
+.btn{
+    padding: 0.6rem 1.2rem;
+    font-family: $font;
+    font-weight: 500;
+    cursor: pointer;
+}
+.rounded{
+    border-radius: 1.5rem;
+}
+.btn-primary-light{
+background-color: $primary-light;
+color: $white;
+}
+.btn-green{
+    background-color: $green-light;
+    color: $white;
+}
+.btn-white{
+    background-color: $white;
+    color: $dark;
+}
+.btn-rounded{
+    padding: 1.5rem;
+    border-radius: 50%;
+}

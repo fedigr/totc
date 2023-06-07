@@ -10,8 +10,8 @@ export function NotAuth(){
     }
     return(
         <div className="wraper">
-            <button className="btn btn-white" onClick={login}>login</button>
-            <button className="btn btn-primary" onClick={signUp}>Sign Up</button>
+            <button className="btn btn-white rounded" onClick={login}>login</button>
+            <button className="btn btn-primary-light rounded" onClick={signUp}>Sign Up</button>
         </div>
     )
 }

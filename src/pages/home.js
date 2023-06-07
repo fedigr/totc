@@ -1,9 +1,10 @@
-import React from "react";
-import { Navbar } from "../components/navbar/navbar";
+import { Outlet } from "react-router-dom";
+import { Header } from "../components/header/header";
 export function Home(){
     return(
-        <>
-        <Navbar />
-        </>
+        <main>
+         <Header />
+         <Outlet />
+        </main>
     )
 }
